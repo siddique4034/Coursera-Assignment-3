@@ -1,0 +1,171 @@
+
+body{
+  background-color: darkred;
+  color: goldenrod;
+}
+
+.navbar{
+  background-color: #600505;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.dropdown{
+  float: right;
+}
+
+#drop-btn{
+  margin-right: 20px;
+  background-color: #600505;
+  border: 2px solid goldenrod;
+  border-radius: 5px;
+  font-family: lobster two;
+  height: 45px;
+  width: 65px;
+  color: goldenrod;
+}
+
+#drop-link{
+  background-color: #600505;
+  width: 424.112px;
+  float: right;
+}
+
+.dropdown-item{
+  color: goldenrod;
+  text-align: center;
+  display: inline-block;
+  font-family: lobster two;
+  animation-name: moveinRight;
+  animation-duration: 2s;
+}
+
+#dropdown-item-1{
+  animation-name: moveinLeft;
+  animation-duration: 2s;
+}
+.a{
+  text-decoration: none;
+}
+
+#header{
+  background-color: darkred;
+  
+}
+#heading{
+  color: goldenrod;
+  font-size: 30px;
+  font-family: monoton;
+  text-decoration: overline;
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-play-state: 1;
+  
+}
+#h{
+  text-align: center;
+  font-family: josefin sans;
+  font-weight: bold;
+  padding-top: 5px;
+ 
+}
+.h1{
+  font-weight: bold;
+  
+}
+@keyframes rotate{
+  0%{
+    text-shadow: 0px 8px 8px black;
+    transform: rotate(360deg);
+  }
+  /*80%{
+    opacity: 0.8;
+    transform: translateX(-5px);
+  }*/
+  100%{
+    
+    transform: rotate(0deg);
+  }
+}
+
+
+#sct1{
+  border: 3px solid goldenrod;
+  border-radius: 25px 25px 25px 0px;
+  margin: 20px;
+  padding: 10px;
+  word-spacing: 5px;
+  font-family: lobster two;
+  box-shadow: 0px 4px 8px black;
+  animation-name: moveinRight;
+  animation-duration: 3s;
+  
+}
+
+a{
+  color: goldenrod;
+  font-weight: bold;
+}
+
+#sct2{
+  border: 3px solid goldenrod;
+  border-radius: 25px 25px 0px 25px;
+  margin: 20px;
+  padding: 10px;
+  word-spacing: 5px;
+  font-family: lobster two;
+  text-align: right;
+  box-shadow: 0px 4px 8px black;
+  animation-name: moveinLeft;
+  animation-duration: 3s;
+}
+
+#sct3{
+  border: 3px solid goldenrod;
+  border-radius: 25px 25px 25px 0px;
+  margin: 20px;
+  padding: 10px;
+  word-spacing: 5px;
+  font-family: lobster two;
+  box-shadow: 0px 4px 8px black;
+  animation-name: moveinRight;
+  animation-duration: 3s;
+}
+
+@keyframes moveinRight{
+  0%{
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  80%{
+    opacity: 0.8;
+    transform: translateX(4px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveinLeft{
+  0%{
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  80%{
+    opacity: 0.8;
+    transform: translateX(-4px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+footer{
+  height: 200px;
+  background-color: #600505;
+  text-align: center;
+  padding-top: 8%;
+  font-family: nunito;
+}
